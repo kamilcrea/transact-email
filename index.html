@@ -1,11 +1,973 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transactional Email</title>
-</head>
-<body>
-    
-</body>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="color-scheme" content="light dark" />
+        <meta name="supported-color-schemes" content="light dark" />
+        <title> Transactional Email - Kamil</title>
+        <style>
+            /* /\/\/\/\/\/\/\/\/ <RESET STYLES> /\/\/\/\/\/\/\/\/ */
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            img {
+                border: 0 none;
+                height: auto;
+                line-height: 100%;
+                outline: none;
+                text-decoration: none;
+            }
+
+            a img {
+                border: 0 none;
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+                margin-bottom: 0;
+            }
+
+            .imageFix {
+                display: block;
+            }
+
+            table,
+            td {
+                border-collapse: collapse;
+            }
+
+            #bodyTable {
+                height: 100% !important;
+                margin: 0;
+                padding: 0;
+                width: 100% !important;
+            }
+
+            /* /\/\/\/\/\/\/\/\/ </RESET STYLES> /\/\/\/\/\/\/\/\/ */
+            :root {
+                color-scheme: light dark;
+                supported-color-schemes: light dark;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+                color: #4e5c6e;
+            }
+
+            /* @media (prefers-color-scheme: dark) {
+        body {
+          background: #000000 !important;
+          background-color: #000000 !important;
+        }
+      } */
+            @media (prefers-color-scheme: light) {
+                body {
+                    background: #f4f7fa !important;
+                    background-color: #f4f7fa !important;
+                }
+            }
+
+            @media (max-width: 600px) {
+                .outer-table {
+                    width: 100% !important;
+                }
+
+                .purchase-header {
+                    width: 80% !important;
+                }
+
+                .download-icon {
+                    width: 35% !important;
+                }
+
+                .customer-enquiries {
+                    width: 80% !important;
+                }
+            }
+
+        </style>
+        <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        .outlook-coinbase-logo {
+                Margin-top:16px;
+                Margin-bottom:32px;
+                Margin-left:16px;
+                Margin-right: 16px;>
+               }
+      </style>
+    <![endif]-->
+        <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        .check-mark-image-td {
+                Margin-top:16px;
+                Margin-bottom:32px;
+                Margin-left:16px;
+                Margin-right: 16px;>
+               }
+      </style>
+    <![endif]-->
+        <!--[if IE]>
+      <style type="text/css">
+        .hide-ie {
+          display: none;
+        }
+      </style>
+    <![endif]-->
+        <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        .check-mark-image {
+          display: none;
+        }
+      </style>
+    <![endif]-->
+    </head>
+
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="
+      margin: 0 auto;
+      padding: 0;
+      background: #f4f7fa;
+      background-color: #f4f7fa;
+    ">
+        <!-- start of outer table -->
+        <!--[if (gte mso 9)|(IE)]>
+                <table width="600" align="center">
+                <tr>
+                <td>
+                <![endif]-->
+        <table class="outer-table" margin="0" width="600" cellspacing="0" cellpadding="0" border="0"
+            style="background: #f4f7fa; background-color: #f4f7fa" align="center">
+            <tr>
+                <td>
+                    <table cellspacing="0" cellpadding="0" border="0" align="center">
+                        <tr>
+                            <td class="outlook-coinbase-logo" align="center" style="width: 100%">
+                                <a style="text-align: center" href="https://www.coinbase.com"><img style="
+                      margin-top: 2em;
+                      margin-bottom: 2em;
+                      margin-left: 2em;
+                      margin-right: 2em;
+                      width: 108px;
+                    " width="108" height="25" src="https://usableone.s3.eu-west-2.amazonaws.com/coinbase_logo.png"
+                                        alt="blue coinbase logo" /></a>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- start of main table -->
+                    <table class="main" leftmargin="0" cellspacing="0" cellpadding="0" border="0" style="
+              background: #fcfdfd;
+              box-shadow: 0.0001em 0.0001rem 0.2em grey;
+              border-radius: 0.28em;
+            " align="center">
+                        <tr>
+                            <td>
+                                <!-- Logo and check mark -->
+                                <!--[if (gte mso 9)|(IE)]>
+                  <table align="center">
+                    <tr>
+                      <td
+                        class="check-mark-image-td"
+                        align="center"
+                        style="Margin-top: 3em"
+                      >
+                        <img
+                          width="86"
+                          height="86"
+                          src="https://usableone.s3.eu-west-2.amazonaws.com/check-mark.png"
+                          alt="green circular check mark"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                <![endif]-->
+                                <table class="top icons hide-ie" align="center" cellspacing="0" cellpadding="0"
+                                    border="0" style="mso-hide: all">
+                                    <tr>
+                                        <td class="check-mark-image" align="center" style="mso-hide: all">
+                                            <div style="mso-hide: all" class="hide-ie">
+                                                <img style="margin-top: 3em; width: 50%"
+                                                    src="https://usableone.s3.eu-west-2.amazonaws.com/check-mark.png"
+                                                    alt="green circular check mark" />
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- end of  Logo and check mark  -->
+                                <!-- start of info-of-transaction -->
+                                <table class="info-of-transaction" style="
+                    color: #4e5c6e;
+                    width: 100%;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                      'Trebuchet MS', sans-serif;
+                  " cellspacing="0" cellpadding="0" border="0" align="center">
+                                    <tr>
+                                        <td align="center">
+                                            <h2 class="purchase-header" style="font-size: 1.5em; width: 390px">
+                                                Your purchase for $1000.00 USD of BTC has started
+                                            </h2>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center" style="width: 100%">
+                                            <p style="
+                          margin-top: 1em;
+                          font-size: 0.9em;
+                          margin-bottom: 1em;
+                        ">
+                                                Your funds will be available by
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center" style="width: 100%">
+                                            <p style="
+                          margin-top: 0.2em;
+                          margin-bottom: 0;
+                          font-size: 2em;
+                        ">
+                                                March 05, 2024
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center" style="width: 100%">
+                                            <p style="
+                          margin-top: 0.9em;
+                          margin-bottom: 0.9em;
+                          Margin-top: 0.9em;
+                          Margin-bottom: 0.9em;
+                          font-size: 0.9em;
+                          width: 60%;
+                        ">
+                                                We're unable to cancel started orders. Read more about
+                                                why<span><a
+                                                        href="https://help.coinbase.com/en/coinbase/trading-and-funding/buying-selling-or-converting-crypto/cancelling-a-purchase.html"
+                                                        style="color: #2e7bc4;">
+                                                        here.</a></span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <!-- start of first horizontal line-->
+                                    <tr>
+                                        <td align="center">
+                                            <!--[if (gte mso 9| (IE))]>
+                        <table width="480">
+                          <tr>
+                            <td
+                              class="ghost-horizontal-line"
+                              style="border-bottom: 0.1em solid #dae1e9"
+                            ></td>
+                          </tr>
+                        </table>
+                      <![endif]-->
+                                            <div class="hide-ie" style="
+                          margin: 2em 0;
+                          border-bottom: 0.1em solid #dae1e9;
+                          border-radius: 1.56em;
+                          text-align: center;
+                          width: 80%;
+                          mso-hide: all;
+                        "></div>
+                                        </td>
+                                    </tr>
+                                    <!-- end of first horizontal line-->
+                                </table>
+                                <!-- end of info-of-transaction -->
+                                <!-- start of transaction-details -->
+
+                                <table style="width: 80%" class="transaction-details" cellspacing="0" cellpadding="0"
+                                    border="0" align="center" valign="center">
+                                    <tr>
+                                        <td style="max-width: 80%">
+                                            <!-- start of left column of transaction details -->
+                                            <!--[if (gte mso 9)|(IE)]>
+                    <table width="480">
+                    <tr>
+                    <td align="left"">
+                    <![endif]-->
+                                            <table class="left" align="left" style="width: 50%; padding: 0; margin: 0"
+                                                cellspacing="0" cellpadding="0" border="0">
+                                                <tr>
+                                                    <td>
+                                                        <!--[if (gte mso 9)|(IE)]>
+                    <table width="240">
+                    <tr>
+                    <td align="left"">
+                    <![endif]-->
+                                                        <p style="
+                                margin-top: 0.625em;
+                                margin-bottom: 0.625em;
+                                Margin-top: 0.625em;
+                                Margin-bottom: 0.625em;
+                                font-size: 0.875em;
+                              ">
+                                                            Reference Code
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="
+                                margin-top: 0.625em;
+                                margin-bottom: 0.625em;
+                                Margin-top: 0.625em;
+                                Margin-bottom: 0.625em;
+                                font-size: 0.875em;
+                              ">
+                                                            Payment Method
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="
+                                margin-top: 0.625em;
+                                margin-bottom: 0.625em;
+                                Margin-top: 0.625em;
+                                Margin-bottom: 0.625em;
+                                font-size: 0.875em;
+                              ">
+                                                            Start Date
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="
+                                margin-top: 0.625em;
+                                margin-bottom: 0.625em;
+                                Margin-top: 0.625em;
+                                Margin-bottom: 0.625em;
+                                font-size: 0.875em;
+                              ">
+                                                            Estimated payout
+                                                        </p>
+                                                        <!--[if (gte mso 9)|(IE)]>
+                                     </td>
+                                    </tr>
+                                  </table>
+                    <![endif]-->
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                            <!-- end of left column of transaction details -->
+
+                                            <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td align="left"">
+                    <![endif]-->
+
+                                            <!-- start of right column of transaction details -->
+
+                                            <table class="right" align="right" style="width: 50%; padding: 0; margin: 0"
+                                                cellspacing="0" cellpadding="0" border="0" valign="center">
+                                                <tr>
+                                                    <td>
+                                                        <!--[if (gte mso 9)|(IE)]>
+                    <table width="240">
+                    <tr>
+                    <td align="left"">
+                    <![endif]-->
+                                                        <p style="
+                                margin-top: 0.625em;
+                                margin-bottom: 0.625em;
+                                Margin-top: 0.625em;
+                                Margin-bottom: 0.625em;
+                                font-size: 0.875em;
+                              ">
+                                                            <span style="
+                                  background: #f4f7fa;
+                                  background-color: #f4f7fa;
+                                  font-family: Arial, Helvetica, sans-serif;
+                                  color: #2e7bc4;
+                                  padding: 0.3em 0.6em;
+                                  border: 0.1em solid #dae1e9;
+                                  border-radius: 0.3em;
+                                  letter-spacing: 0.19em;
+                                ">SDSDMS</span>
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="
+                                margin-top: 0.625em;
+                                margin-bottom: 0.625em;
+                                Margin-top: 0.625em;
+                                Margin-bottom: 0.625em;
+                                font-size: 0.875em;
+                              ">
+                                                            John Sm... ******890
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="
+                                margin-top: 0.625em;
+                                margin-bottom: 0.625em;
+                                Margin-top: 0.625em;
+                                Margin-bottom: 0.625em;
+                                font-size: 0.875em;
+                              ">
+                                                            March 05, 2024
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="
+                                margin-top: 0.625em;
+                                margin-bottom: 0.625em;
+                                Margin-top: 0.625em;
+                                Margin-bottom: 0.625em;
+                                font-size: 0.875em;
+                              ">
+                                                            March 12, 2024
+                                                        </p>
+                                                        <!--[if (gte mso 9)|(IE)]>
+                                     </td>
+                                    </tr>
+                                  </table>
+                    <![endif]-->
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <!-- end of right column of transaction details -->
+                                            <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]-->
+                                        </td>
+                                    </tr>
+
+                                    <!-- start second horizontal line -->
+                                    <tr>
+                                        <td align="center">
+                                            <!--[if (gte mso 9)| (IE)]>
+                        <table width="480">
+                          <tr>
+                            <td
+                              class="ghost-horizontal-line"
+                              style="border-bottom: 0.1em solid #dae1e9"
+                            ></td>
+                          </tr>
+                        </table>
+                      <![endif]-->
+                                            <div class="hide-ie" style="
+                          margin: 2em 0;
+                          border-bottom: 0.1em solid #dae1e9;
+                          border-radius: 1.56em;
+                          width: 100%;
+                          text-align: center;
+                          mso-hide: all;
+                        "></div>
+                                        </td>
+                                    </tr>
+                                    <!-- end second horizontal line -->
+                                    <!-- bottoms columns -->
+                                    <tr>
+                                        <td>
+                                            <!--[if (gte mso 9)|(IE)]>
+                      <table width="480">
+                        <tr>
+                          <td align="left">
+                            <![endif]-->
+                                            <table style="width: 100%; text-align: center" cellpadding="0"
+                                                cellspacing="0" border="0">
+                                                <tr>
+                                                    <td>
+                                                        <table class="left" align="left"
+                                                            style="width: 50%; padding: 0; margin: 0" cellpadding="0"
+                                                            cellspacing="0" border="0">
+                                                            <tr>
+                                                                <td>
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                    <table width="240">
+                    <tr>
+                    <td align="left"">
+                    <![endif]-->
+                                                                    <p style="
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      font-size: 0.875em;
+                                      text-align: left;
+                                    ">
+                                                                        Amount
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      font-size: 0.875em;
+                                      text-align: left;
+                                    ">
+                                                                        Exchange Rate
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      font-size: 0.875em;
+                                      text-align: left;
+                                    ">
+                                                                        Subtotal
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      font-size: 0.875em;
+                                      text-align: left;
+                                    ">
+                                                                        Fee
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      font-size: 0.875em;
+                                      text-align: left;
+                                    ">
+                                                                        Total
+                                                                    </p>
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]-->
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                      <td align="left" style="width:100%;">
+                      <![endif]-->
+                                                        <table class="right" align="right" style="
+                                width: 50%;
+                                padding: 0;
+                                margin: 0;
+                                margin: 0;
+                              " cellpadding="0" cellspacing="0" border="0">
+                                                            <tr>
+                                                                <td>
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                    <table width="240">
+                    <tr>
+                    <td align="left"">
+                    <![endif]-->
+                                                                    <p style="
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      font-size: 0.875em;
+                                      font-weight: 700;
+                                      text-align: left;
+                                    ">
+                                                                        0.03125 BTC
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      font-size: 0.875em;
+                                      text-align: left;
+                                    ">
+                                                                        @ $32,000,00 / BTC
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      font-size: 0.875em;
+                                      text-align: left;
+                                    ">
+                                                                        $999.00
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      font-size: 0.875em;
+                                      text-align: left;
+                                    ">
+                                                                        $1.00
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      margin-top: 0.625em;
+                                      margin-bottom: 0.625em;
+                                      font-size: 0.875em;
+                                      text-align: left;
+                                    ">
+                                                                        $1000
+                                                                    </p>
+                                                                    <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]-->
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                    </tr>
+                  </table>
+                      <![endif]-->
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- start of purchase button -->
+                                    <tr>
+                                        <td style="text-align: center">
+                                            <a href="https://www.coinbase.com/signin" style="
+                          background: #3c90df;
+                          background-color: #3c90df;
+                          color: #fff;
+                          font-size: 1em;
+                          font-weight: 600;
+                          text-decoration: none;
+                          text-align: center;
+                          margin: 1em 0;
+                          max-width: 100%;
+                          display: block;
+                          padding: 1em 0;
+                          border-radius: 0.5em;
+                          mso-hide: all;
+                        ">View Purchase</a>
+                                            <!--[if mso]>
+                        <div style="mso-line-height-rule: exactly; line-height: 30px; font-size:1px;"></div>
+                        <v:roundrect 
+                        xmlns:v="urn:schemas-microsoft-com:vml" 
+                        xmlns:w="urn:schemas-microsoft-com:office:word" 
+                        href="https://www.coinbase.com/signin" 
+                        style="height:53px;width:480px;" 
+                        arcsize="20%" 
+                        stroke="f" 
+                        fillcolor="#3c90df">
+                          <v:textbox style="mso-fit-shape-to-text: t"
+                        <center
+                        style="
+                          background-color: #3c90df;
+                          border-radius: 8px;
+                          color: #ffffff;
+                          font-size: 16px;
+                          font-weight: bold;
+                          text-align: center;
+                          text-decoration: none;
+                          width: 100%;
+                          mso-line-height-rule: exactly;
+                          -webkit-text-size-adjust: none;
+                        "
+                        >View Purchase
+                      </center></v:textbox>
+                        </v:roundrect>
+                        <div style="mso-line-height-rule: exactly; line-height: 20px; font-size:1px;">&nbsp;</div>
+                      <![endif]-->
+                                        </td>
+                                    </tr>
+                                    <!-- end of purchase button -->
+                                    <!-- start of third horizontal line-->
+                                    <tr>
+                                        <td class="outlook-horizontal-line" align="center">
+                                            <!--[if (gte mso 9)| (IE)]>
+                        <table width="480">
+                          <tr>
+                            <td
+                              class="ghost-horizontal-line"
+                              style="border-bottom: 0.1em solid #dae1e9"
+                            ></td>
+                          </tr>
+                        </table>
+                      <![endif]-->
+                                            <div class="hide-ie" style="
+                          margin: 0.5em 0;
+                          border-bottom: 0.16em solid #dae1e9;
+                          border-radius: 1.56em;
+                          width: 100%;
+                          text-align: center;
+                          mso-hide: all;
+                        "></div>
+                                        </td>
+                                    </tr>
+                                    <!-- end of third horizontal line-->
+                                </table>
+                                <!-- end of transaction-details -->
+                                <!-- start of questions -->
+                                <table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 80%">
+                                    <tr>
+                                        <td>
+                                            <h3 style="
+                          font-weight: 500;
+                          text-align: center;
+                          margin-bottom: 1em;
+                          Margin-top: 1em;
+                        ">
+                                                Frequently asked questions
+                                            </h3>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="
+                        text-align: center;
+                        padding-bottom: 1em;
+                        margin-bottom: 1em;
+                      ">
+                                            <a href="https://help.coinbase.com/en/coinbase/trading-and-funding/buying-selling-or-converting-crypto/how-long-does-a-purchase-or-deposit-take-to-complete.html"
+                                                style="
+                          color: #2e7bc4;
+                          text-align: center;
+                          font-size: 0.875em;
+                        ">How long does a purchase or deposit take to
+                                                complete?</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="
+                        text-align: center;
+                        padding-bottom: 1em;
+                        margin-bottom: 1em;
+                      ">
+                                            <a href="https://help.coinbase.com/en/coinbase/trading-and-funding/pricing-and-fees/fees.html?b_id=13521https://help.coinbase.com/en/coinbase/trading-and-funding/pricing-and-fees/fees.html?b_id=13521"
+                                                style="
+                          color: #2e7bc4;
+                          text-align: center;
+                          font-size: 0.875em;
+                        ">How are fees applied when I buy or sell digital
+                                                currency?</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center; margin-bottom: 1em">
+                                            <a href="https://help.coinbase.com/en/coinbase/trading-and-funding/buying-selling-or-converting-crypto/cancelling-a-purchase.html?b_id=13521"
+                                                style="
+                          color: #2e7bc4;
+                          text-align: center;
+                          font-size: 0.875em;
+                        ">Can I cancel my purchase?</a>
+                                        </td>
+                                    </tr>
+                                    <!-- start of fourth horizontal line-->
+                                    <tr>
+                                        <td align="center">
+                                            <!--[if (gte mso 9)| (IE)]>
+                        <table width="480">
+                          <tr>
+                            <td
+                              class="ghost-horizontal-line"
+                              style="border-bottom: 0.1em solid #dae1e9"
+                            ></td>
+                          </tr>
+                        </table>
+                      <![endif]-->
+                                            <div class="hide-ie" style="
+                          margin: 1.5em 0;
+                          border-bottom: 0.1em solid #dae1e9;
+                          border-radius: 1.56em;
+                          width: 100%;
+                          text-align: center;
+                          mso-hide: all;
+                        "></div>
+                                        </td>
+                                    </tr>
+                                    <!-- end of fourth horizontal line-->
+                                </table>
+                                <!-- end of questions -->
+                                <!--start of pre-footer-->
+                                <table class="customer-enquiries" cellpadding="0" cellspacing="0" border="0"
+                                    align="center" style="width: 80%">
+                                    <tr>
+                                        <td>
+                                            <p style="
+                          font-size: 0.75em;
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+                            'Open Sans', 'Helvetica Neue', sans-serif;
+                          color: #9ba6b2;
+                          text-align: center;
+                          text-align-last: center;
+                          margin: 0 1.8em;
+                          Margin-top: 1em;
+                        ">
+                                                For customer service inquiries, please contact
+                                                <a href="https://help.coinbase.com/" style="color: #2e7bc4">customer
+                                                    support</a>. Please include your reference code
+                                                <span style="font-weight: 700">SDSDMS</span>.
+                                            </p>
+                                            <p style="
+                          font-size: 0.75em;
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+                            'Open Sans', 'Helvetica Neue', sans-serif;
+                          color: #9ba6b2;
+                          text-align: center;
+                          text-align-last: center;
+                          margin: 2em 0;
+                        ">
+                                                Coinbase, Inc., 548 Market St., #23008, San Francisco,
+                                                CA 94104-5401, (888) 908-7930.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- end of pre-footer-->
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- end of main table -->
+                    <!-- start of footer-->
+                    <table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 100%">
+                        <tr style="width: 80%">
+                            <td style="display: block; width: 100%">
+                                <p style="
+                    font-size: 0.875em;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                      Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                      'Helvetica Neue', sans-serif;
+                    color: #7e8a98;
+                    text-align: center;
+                    margin: 3em 0 0.7em;
+                    font-weight: 500;
+                  ">
+                                    Get the latest Coinbase App for your phone
+                                </p>
+                        <tr align="center">
+                            <td style="
+                      display: block;
+                      text-align: center;
+                      width: 100%;
+                      margin-top: 0.7em;
+                      margin-bottom: 0.7em;
+                      Margin-top: 0.7em;
+                      Margin-bottom: 0.7em;
+                    ">
+                                <!--[if (gte mso 9)| (IE)]>
+                      <table align="center">
+                        <tr>
+                          <td width="150">
+                            <a
+                              style="margin-right: 0.3em"
+                              href="https://apps.apple.com/us/app/coinbase-buy-bitcoin-more/id886427730"
+                            >
+                              <img
+                                width="150"
+                                height="44"
+                                src="https://s3.amazonaws.com/app-public/Coinbase-email/iOS_app.png"
+                                alt="apple-app-icon"
+                              />
+                            </a>
+                          </td>
+                          <td width="150">
+                            <a
+                              style="margin-right: 0.3em"
+                              href="https://play.google.com/store/apps/details?id=com.coinbase.android&referrer=utm_source%3Dko_bbcb5a2d590b217cb%26utm_medium%3D1%26utm_campaign%3Dkocoinbase----production553ec3be25c1308daf2a5d2791%26utm_term%3D%26utm_content%3D%26"
+                            >
+                              <img
+                                width="150"
+                                height="44"
+                                src="https://s3.amazonaws.com/app-public/Coinbase-email/Android_app.png"
+                                alt="android-app-icon"
+                              />
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    <![endif]-->
+
+                                <a style="width: 150px; mso-hide: all" class="hide-ie"
+                                    href="https://apps.apple.com/us/app/coinbase-buy-bitcoin-more/id886427730"><img
+                                        class="download-icon" style="
+                          display: inline-block;
+                          margin-right: 0.3em;
+                          width: 25%;
+                        " src="https://s3.amazonaws.com/app-public/Coinbase-email/iOS_app.png"
+                                        alt="apple-app-icon" /></a>
+                                <a style="width: 150px; mso-hide: all" class="hide-ie"
+                                    href="https://play.google.com/store/apps/details?id=com.coinbase.android&referrer=utm_source%3Dko_bbcb5a2d590b217cb%26utm_medium%3D1%26utm_campaign%3Dkocoinbase----production553ec3be25c1308daf2a5d2791%26utm_term%3D%26utm_content%3D%26">
+                                    <img class="download-icon" style="
+                          display: inline-block;
+                          width: 25%;
+                          margin-left: 0.3em;
+                        " src="https://s3.amazonaws.com/app-public/Coinbase-email/Android_app.png"
+                                        alt="android-app-icon" /></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="
+                        color: #9eb0c9;
+                        font-size: 0.625em;
+                        text-align: center;
+                        margin: 2em 0;
+                      ">
+                                    @ Coinbase 2024
+                                </p>
+                            </td>
+                        </tr>
+                </td>
+            </tr>
+        </table>
+        <!-- end of the footer-->
+        </td>
+        </tr>
+        </table>
+        <!--[if (gte mso 9)|(IE)]>
+                </td>
+                </tr>
+                </table>
+                <![endif]-->
+        <!-- end of the outer table -->
+    </body>
+
 </html>
